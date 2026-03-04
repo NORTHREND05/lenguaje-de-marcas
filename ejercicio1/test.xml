@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inventario SYSTEM "inventario.dtd">
+<inventario>
+    <lapiz>
+        <dureza></dureza>
+    </lapiz>
+    <boligrafo>
+        <precio></precio>
+        <color></color>
+    </boligrafo>
+    <cuaderno>
+        <numhojas></numhojas>
+        <estilo></estilo>
+    </cuaderno>
+</inventario>

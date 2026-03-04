@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listafacturas SYSTEM "listafacturas.dtd">
+<listafacturas>
+    <facturas>
+        <emisor CIF="">
+            <nombre></nombre>
+        </emisor>
+        <pagador CIF="">
+            <nombre></nombre>
+        </pagador>
+        <importe></importe>
+    </facturas>
+    <facturas>
+        <emisor CIF="">
+            <nombre></nombre>
+        </emisor>
+        <pagador CIF="">
+            <nombre></nombre>
+        </pagador>
+        <importe></importe>
+    </facturas>
+</listafacturas>
