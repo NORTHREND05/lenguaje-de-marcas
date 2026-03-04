@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gasolinera SYSTEM "gasolinera.dtd">
+
+<gasolinera>
+    <tanques>
+        <litros_entrada></litros_entrada>
+        <litros_salida id="acb"></litros_salida>
+        <fecha></fecha>
+    </tanques>
+    <tanques>
+        <litros_entrada></litros_entrada>
+        <litros_salida id="bca"></litros_salida>
+        <fecha></fecha>
+    </tanques>
+    <tanques>
+        <litros_entrada></litros_entrada>
+        <litros_salida id="cba"></litros_salida>
+        <fecha></fecha>
+    </tanques>
+    <tanques>
+        <litros_entrada></litros_entrada>
+        <litros_salida id="abc"></litros_salida>
+        <fecha></fecha>
+    </tanques>
+    <clientes id="cliente1">
+        <nombre></nombre>
+        <apellidos></apellidos>
+        <DNI></DNI>
+    </clientes>
+    <ventas operacion="acb" cliente="cliente1"></ventas>
+</gasolinera>

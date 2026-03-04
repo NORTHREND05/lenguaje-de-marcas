@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE operaciones SYSTEM "operaciones.dtd">
+
+<operaciones>
+    <operacion>
+        <venta>
+            <titulosvendidos>
+                <titulo>Geronimo Stilton</titulo>
+                <cantidadtotal>2</cantidadtotal>
+                <importe moneda="euro">120</importe>
+            </titulosvendidos>
+        </venta>
+    </operacion>
+</operaciones>

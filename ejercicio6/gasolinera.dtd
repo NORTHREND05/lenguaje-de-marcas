@@ -1,0 +1,22 @@
+<!ELEMENT gasolinera (tanques, tanques, tanques, tanques, clientes, ventas)>
+
+<!ELEMENT tanques (litros_entrada, litros_salida, fecha)>
+<!ATTLIST tanques tipo_combustible CDATA #FIXED "gasolina95">
+
+<!ELEMENT litros_entrada (#PCDATA)>
+<!ELEMENT litros_salida (#PCDATA)>
+<!ATTLIST litros_salida id ID #REQUIRED>
+
+<!ELEMENT fecha (#PCDATA)>
+
+<!ELEMENT clientes (nombre, apellidos, DNI, telefono?, email?)>
+<!ATTLIST clientes id ID #REQUIRED pais CDATA #FIXED "ES">
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT DNI (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT ventas (#PCDATA)>
+<!ATTLIST ventas operacion IDREF #REQUIRED cliente IDREF #REQUIRED>

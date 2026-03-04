@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listacursos SYSTEM "listacursos.dtd">
+
+<listacursos>
+    <cursos>
+        <alumnos>
+            <dni>20202020T</dni>
+            <nombre>Manolo</nombre>
+            <apellido>Gimenez</apellido>
+            <lista_asignaturas>
+                <asignatura codigo="C1">
+                    <nombre>LMSGI</nombre>
+                    <profesor>
+                        <NRP>2020020</NRP>
+                        <nombre>Pepe</nombre>
+                        <apellido>Padre</apellido>
+                    </profesor>
+                </asignatura>
+            </lista_asignaturas>
+        </alumnos>
+    </cursos>
+</listacursos>

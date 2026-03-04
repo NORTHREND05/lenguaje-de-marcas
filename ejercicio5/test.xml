@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repuestos SYSTEM "repuestos.dtd">
+
+<!-- Modelo A correcto -->
+<repuestos>
+    <repuesto>
+        <tornillo peso="100">
+            <descripcion>Punta DIN902</descripcion>
+        </tornillo>
+    </repuesto>
+    <repuesto>
+        <tuerca peso="20">
+            <material>Titanio</material>
+        </tuerca>
+    </repuesto>
+</repuestos>
+
+<!-- Modelo B erroneo 
+<repuestos>
+    <repuesto>
+        <tornillo>
+            <descripcion>Punta DIN902</descripcion>
+        </tornillo>
+    </repuesto>
+    <repuesto>
+        <tuerca peso="20">
+            <material>Titanio</material>
+        </tuerca>
+    </repuesto>
+</repuestos> 
+-->
